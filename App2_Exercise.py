@@ -36,7 +36,7 @@ with col2:
         st.image(f"images2/{row['image']}")
 
 with col3:
-    for index, row in df.iloc[8:12].iterrows():
+    for index, row in df.iloc[8:].iterrows():
         st.subheader(row["Full Name"])
         st.write(row["role"])
         st.image(f"images2/{row['image']}")
